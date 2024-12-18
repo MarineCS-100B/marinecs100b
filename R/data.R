@@ -1,0 +1,14 @@
+#' CalCOFI CTD data
+#'
+#' A subset of CTD casts from CalCOFI cruise 1708SR (July 2017). Uses the "Final
+#' 1m-Binned" data. Only four stations' downcasts are included. Those stations
+#' are 083.3 070.0, 083.3 110.0, 090.0 070.0, and 090.0 110.0.
+#'
+#' @format ## `calcofi_ctd` A data frame with 2058 rows and 7 columns:
+#' #' \describe{
+#'   \item{station_id}{Station ID}
+#'   \item{depth, temperature, salinity}{CTD readings. Depth in m, temperature in degC, salinity in PSU}
+#'   \item{datetime_utc, longitude, latitude}{Time and location of CTD reading.}
+#' }
+#' @source <https://calcofi.org/data/oceanographic-data/ctd-cast-files>
+"calcofi_ctd"
