@@ -5,13 +5,11 @@
 \alias{calcofi_ctd}
 \title{CalCOFI CTD data}
 \format{
-\subsection{\code{calcofi_ctd} A data frame with 2058 rows and 7 columns:}{
-
-#' \describe{
+\code{calcofi_ctd} A data frame with 2058 rows and 7 columns:
+\describe{
 \item{station_id}{Station ID}
 \item{depth, temperature, salinity}{CTD readings. Depth in m, temperature in degC, salinity in PSU}
 \item{datetime_utc, longitude, latitude}{Time and location of CTD reading.}
-}
 }
 }
 \source{
