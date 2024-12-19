@@ -12,3 +12,24 @@
 #' }
 #' @source <https://calcofi.org/data/oceanographic-data/ctd-cast-files>
 "calcofi_ctd"
+
+#' RREAS survey and Commun Murre diet data
+#'
+#' Two independent proxies for forage fish abundance in the California Current.
+#' (1) Log-transformed estimates of catch per unit effort of young-of-the-year
+#' rockfish and anchovy from the Rockfish Recruitment Ecosystem Assessment
+#' Survey. (2) Percentage of Common Murre diet composed of the same two species
+#' observed on Southeast Farallon Island. Rockfish data spans 1983-2019, anchovy
+#' 1990-2019.
+#'
+#' @format `rreas_comu` A data frame with 37 rows and 5 columns:
+#' \describe{
+#'   \item{year}{Year of data}
+#'   \item{comu_yoyrockfish, comu_anchovy}{Fraction of Common Murre diet composed of young-of-the-year
+#' rockfish and anchovy, respectively.}
+#'   \item{rreas_yoyrockfish, rreas_anchovy}{Log-transformed catch per unit effort of young-of-the-year
+#' rockfish and anchovy, respectively.}
+#' }
+#' @source
+#' \insertRef{Santora_2021}{marinecs100b}
+"rreas_comu"
