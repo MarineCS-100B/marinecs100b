@@ -1,6 +1,6 @@
 Package: marinecs100b
 Type: Package
-Title: Course companion package for MARINCS 100B in the UCSB CCS Marine Science major.
+Title: Course companion package for MARINCS 100B in the UCSB CCS Marine Science major
 Version: 0.1.0
 Authors@R: 
     person("Max", "Czapanskiy", , "maxczap@ucsb.edu", role = c("aut", "cre"))
