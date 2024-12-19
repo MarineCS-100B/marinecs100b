@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2024-12-19T02:27Z
+last_built: 2024-12-19T04:16Z
 urls:
   reference: https://flukeandfeather.github.io/marinecs100b/reference
   article: https://flukeandfeather.github.io/marinecs100b/articles
