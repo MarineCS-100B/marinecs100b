@@ -1,9 +1,0 @@
-pandoc: '3.2'
-pkgdown: 2.0.7
-pkgdown_sha: ~
-articles: {}
-last_built: 2024-12-19T04:26Z
-urls:
-  reference: https://flukeandfeather.github.io/marinecs100b/reference
-  article: https://flukeandfeather.github.io/marinecs100b/articles
-
