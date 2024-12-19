@@ -7,7 +7,7 @@
 plot_ild(cast, n, h_b, t_b, h_ref, t_ref)
 }
 \arguments{
-\item{cast}{\verb{[data.frame]} A data.frame with the CTD cast data, containing
+\item{cast}{\verb{[data.frame]} A data frame with the CTD cast data, containing
 columns \code{temperature} and \code{depth}.}
 
 \item{n}{\verb{[numeric(1)]} The index of the last CTD point above the base of the

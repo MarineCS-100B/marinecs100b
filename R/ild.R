@@ -4,7 +4,7 @@
 #' to calculate isothermal layer depth (ILD) according to the methods of Kara et
 #' al. (2000).
 #'
-#' @param cast `[data.frame]` A data.frame with the CTD cast data, containing
+#' @param cast `[data.frame]` A data frame with the CTD cast data, containing
 #'   columns `temperature` and `depth`.
 #' @param n `[numeric(1)]` The index of the last CTD point above the base of the
 #'   ILD.

@@ -10,8 +10,10 @@ License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    dplyr,
     ggplot2,
-    Rdpack
+    Rdpack,
+    scales
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 RdMacros: Rdpack
