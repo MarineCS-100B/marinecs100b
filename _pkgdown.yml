@@ -1,4 +1,21 @@
 url: https://flukeandfeather.github.io/marinecs100b/
 template:
   bootstrap: 5
-
+reference:
+- title: "Datasets"
+  desc: "Built-in datasets"
+  contents:
+  - calcofi_ctd
+  - cctd_meso
+  - kefj_temperature
+  - kefj_site
+  - kefj_datetime
+  - kefj_tidelevel
+  - kefj_exposure
+  - kefj_season
+  - rreas_comu
+- title: "Plotting functions"
+  desc: >
+    Functions that plot the results of various module deliverables.
+  contents:
+  - starts_with("plot")
