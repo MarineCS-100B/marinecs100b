@@ -21,3 +21,7 @@ Depends:
     R (>= 2.10)
 URL: https://github.com/FlukeAndFeather/marinecs100b, https://flukeandfeather.github.io/marinecs100b/
 BugReports: https://github.com/FlukeAndFeather/marinecs100b/issues
+Suggests: 
+    lubridate,
+    readr,
+    sbtools

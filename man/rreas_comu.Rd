@@ -8,10 +8,10 @@
 \code{rreas_comu} A data frame with 37 rows and 5 columns:
 \describe{
 \item{year}{Year of data}
-\item{comu_yoyrockfish, comu_anchovy}{Fraction of Common Murre diet composed of young-of-the-year
-rockfish and anchovy, respectively.}
-\item{rreas_yoyrockfish, rreas_anchovy}{Log-transformed catch per unit effort of young-of-the-year
-rockfish and anchovy, respectively.}
+\item{comu_yoyrockfish, comu_anchovy}{Fraction of Common Murre diet
+composed of young-of-the-year rockfish and anchovy, respectively.}
+\item{rreas_yoyrockfish, rreas_anchovy}{Log-transformed catch per unit
+effort of young-of-the-year rockfish and anchovy, respectively.}
 }
 }
 \source{
