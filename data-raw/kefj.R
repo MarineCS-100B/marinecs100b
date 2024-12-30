@@ -5,6 +5,7 @@ library(lubridate)
 library(readr)
 library(readxl)
 library(sbtools)
+library(stringr)
 tempdatadir <- tempdir()
 
 # Intertidal Temperature Data from Kachemak Bay, Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park
@@ -20,10 +21,12 @@ sb_temp_xlsx <- dir(file.path(tempdatadir, "Block05_KEFJ"),
                     pattern = "xlsx$", full.names = TRUE)
 sb_temp_colnames <- colnames(read_csv(sb_temp_csv[1], n_max = 1))
 sb_temp <- rbind(
-  read_csv(sb_temp_csv, col_names = sb_temp_colnames, skip = 1),
-  read_excel(sb_temp_xlsx, col_names = sb_temp_colnames, skip = 1)
+  read_csv(sb_temp_csv, col_names = sb_temp_colnames, skip = 1, id = "source"),
+  read_excel(sb_temp_xlsx, col_names = sb_temp_colnames, skip = 1) %>%
+    mutate(source = sb_temp_xlsx)
 ) %>%
   mutate(datetime = force_tz(as.POSIXct(date) + time, "Etc/GMT+8")) %>%
+  filter(str_detect(sensor, ".*0.5a$")) %>%
   arrange(site, datetime)
 unlink(tempdatadir, recursive = TRUE)
 

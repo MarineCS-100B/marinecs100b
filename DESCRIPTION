@@ -24,4 +24,5 @@ BugReports: https://github.com/FlukeAndFeather/marinecs100b/issues
 Suggests: 
     lubridate,
     readr,
-    sbtools
+    sbtools,
+    stringr
