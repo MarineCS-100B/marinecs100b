@@ -1,28 +1,32 @@
-Package: marinecs100b
 Type: Package
-Title: Course companion package for MARINCS 100B in the UCSB CCS Marine Science major
+Package: marinecs100b
+Title: Course companion package for MARINCS 100B in the UCSB CCS Marine
+    Science major
 Version: 0.1.0
 Authors@R: 
     person("Max", "Czapanskiy", , "maxczap@ucsb.edu", role = c("aut", "cre"))
-Description: This package contains data, functions, and vignettes to accompany 
-    the UCSB course MARINCS 100B: Intro to Marine Data Science.
+Description: This package contains data, functions, and vignettes to
+    accompany the UCSB course MARINCS 100B: Intro to Marine Data Science.
 License: CC BY 4.0
-Encoding: UTF-8
-LazyData: true
+URL: https://github.com/FlukeAndFeather/marinecs100b,
+    https://flukeandfeather.github.io/marinecs100b/
+BugReports: https://github.com/FlukeAndFeather/marinecs100b/issues
+Depends: 
+    R (>= 2.10)
 Imports: 
     dplyr,
     ggplot2,
     Rdpack,
-    scales
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
-RdMacros: Rdpack
-Depends: 
-    R (>= 2.10)
-URL: https://github.com/FlukeAndFeather/marinecs100b, https://flukeandfeather.github.io/marinecs100b/
-BugReports: https://github.com/FlukeAndFeather/marinecs100b/issues
+    scales,
+    usethis
 Suggests: 
     lubridate,
     readr,
     sbtools,
     stringr
+RdMacros: 
+    Rdpack
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
