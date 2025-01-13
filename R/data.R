@@ -55,7 +55,7 @@
 #'
 #' Temperature readings from five sites in Kenai Fjords 2007-2024.
 #'
-#' @format `kefj_*` are all vectors of length 2187966.
+#' @format `kefj_*` are all vectors of length 1295038.
 #'
 #' `kefj_temperature` A numeric vector with the temperature readings in Celsius.
 #'

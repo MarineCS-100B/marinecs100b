@@ -11,7 +11,7 @@
 \alias{kefj_season}
 \title{Kenai Fjords Temperature Readings}
 \format{
-\verb{kefj_*} are all vectors of length 2187966.
+\verb{kefj_*} are all vectors of length 1295038.
 
 \code{kefj_temperature} A numeric vector with the temperature readings in Celsius.
 
