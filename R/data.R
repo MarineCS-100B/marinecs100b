@@ -118,3 +118,19 @@
 #' @rdname kefj
 #' @format NULL
 "kefj_season"
+
+#' World Ocean Atlas data
+#'
+#' The latest World Ocean Atlas data (as of 2025). Specifically, the statistical
+#' mean of temperature for the "averaged decades" climatology at the annual time
+#' scale. Pivoted from wide format (as available from NCEI) to long.
+#'
+#' @format `woa_long` A data frame with 2810255 rows and 4 columns:
+#' \describe{
+#'   \item{latitude, longitude}{Latitude and longitude in decimal degrees. Longitude in the range -180, 180.}
+#'   \item{depth_m}{Depth in meters.}
+#'   \item{temp_c}{Water temperature in °C}
+#' }
+#' @source
+#' <https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/bin/woa23.pl>
+"woa_long"
