@@ -119,7 +119,7 @@
 #' @format NULL
 "kefj_season"
 
-#' World Ocean Atlas data
+#' World Ocean Atlas data (temperature)
 #'
 #' The latest World Ocean Atlas data (as of 2025). Specifically, the statistical
 #' mean of temperature for the "averaged decades" climatology at the annual time
@@ -134,3 +134,19 @@
 #' @source
 #' <https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/bin/woa23.pl>
 "woa_long"
+
+#' World Ocean Atlas data (salinity)
+#'
+#' The latest World Ocean Atlas data (as of 2025). Specifically, the statistical
+#' mean of salinity for the "averaged decades" climatology at the annual time
+#' scale. Only surface salinity is included
+#'
+#' @format `woa_long` A data frame with 2810255 rows and 4 columns:
+#' \describe{
+#'   \item{latitude, longitude}{Latitude and longitude in decimal degrees. Longitude in the range -180, 180.}
+#'   \item{salinity}{Salinity (unitless).}
+#' }
+#' @source
+#' <https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/bin/woa23.pl>
+"woa_sal"
+
