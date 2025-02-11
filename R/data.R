@@ -137,16 +137,25 @@
 
 #' World Ocean Atlas data (salinity)
 #'
-#' The latest World Ocean Atlas data (as of 2025). Specifically, the statistical
-#' mean of salinity for the "averaged decades" climatology at the annual time
-#' scale. Only surface salinity is included
+#' A sample of salinity data from the latest World Ocean Atlas data (as of
+#' 2025). Specifically, the statistical mean of salinity for the "averaged
+#' decades" climatology at the annual time scale.
 #'
-#' @format `woa_long` A data frame with 2810255 rows and 4 columns:
+#' Only surface salinity is included from the Atlantic, Indian, and Pacific
+#' Oceans, as well as the Mediterranean Sea. Ocean basins delineated according
+#' to the Global Oceans and Seas dataset. 1000 values were sampled from the full
+#' data set.
+#'
+#' @format `woa_sal` A data frame with 1000 rows and 4 columns:
 #' \describe{
 #'   \item{latitude, longitude}{Latitude and longitude in decimal degrees. Longitude in the range -180, 180.}
 #'   \item{salinity}{Salinity (unitless).}
+#'   \item{ocean}{Name of ocean basin. One of: Atlantic Ocean, Indian Ocean, Pacific Ocean, or Mediterranean Region.}
+#'
 #' }
 #' @source
 #' <https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/bin/woa23.pl>
+#'
+#' \insertRef{goas}{marinecs100b}
 "woa_sal"
 

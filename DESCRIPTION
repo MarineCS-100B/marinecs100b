@@ -16,6 +16,7 @@ Depends:
 Imports: 
     palmerpenguins,
     Rdpack,
+    sf,
     tidyverse,
     usethis
 Suggests: 

@@ -5,21 +5,31 @@
 \alias{woa_sal}
 \title{World Ocean Atlas data (salinity)}
 \format{
-\code{woa_long} A data frame with 2810255 rows and 4 columns:
+\code{woa_sal} A data frame with 1000 rows and 4 columns:
 \describe{
 \item{latitude, longitude}{Latitude and longitude in decimal degrees. Longitude in the range -180, 180.}
 \item{salinity}{Salinity (unitless).}
+\item{ocean}{Name of ocean basin. One of: Atlantic Ocean, Indian Ocean, Pacific Ocean, or Mediterranean Region.}
+
 }
 }
 \source{
 \url{https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/bin/woa23.pl}
+
+\insertRef{goas}{marinecs100b}
 }
 \usage{
 woa_sal
 }
 \description{
-The latest World Ocean Atlas data (as of 2025). Specifically, the statistical
-mean of salinity for the "averaged decades" climatology at the annual time
-scale. Only surface salinity is included
+A sample of salinity data from the latest World Ocean Atlas data (as of
+2025). Specifically, the statistical mean of salinity for the "averaged
+decades" climatology at the annual time scale.
+}
+\details{
+Only surface salinity is included from the Atlantic, Indian, and Pacific
+Oceans, as well as the Mediterranean Sea. Ocean basins delineated according
+to the Global Oceans and Seas dataset. 1000 values were sampled from the full
+data set.
 }
 \keyword{datasets}
